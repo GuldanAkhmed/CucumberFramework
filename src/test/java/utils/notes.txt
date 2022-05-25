@@ -1,0 +1,12 @@
+1)constats class - very basic class- just defining the final constant path -- System.getProperty("user.dir")
+---> every user will get their unique path, this path we will not change, its the standard organized framework
+2) configReader class
+3) CommonMethods class- storing common functionalities -- storing the operations
+that we will perform regularly we keep in here
+---> example Open browser, navigating url, with chrome or with firefox,
+ the commonMethods class allows me to override the path,
+and reuse the methods
+--> other examples -- click operations (with parameters as web elements-
+it will override the method each time we use it)
+---> same we can do for sendText, JS click, screenshots
+all the methods above we can add in our common methods
